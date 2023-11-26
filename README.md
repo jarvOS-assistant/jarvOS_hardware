@@ -8,25 +8,17 @@ This repository contains a Python script (`main.py`) that utilizes the `speech_r
 
 1. Clone this repository:
     
-    bashCopy code
-    
     `git clone https://github.com/your-username/speech-recognition-assistant.git`
     
 2. Navigate to the project directory:
-    
-    bashCopy code
-    
+
     `cd speech-recognition-assistant`
     
 3. Install the required dependencies:
     
-    bashCopy code
-    
     `pip install -r requirements.txt`
     
 4. Create a `device_info.json` file with the following structure:
-    
-    jsonCopy code
     
     `{     "device_id": "your_device_id" }`
     
@@ -36,8 +28,6 @@ This repository contains a Python script (`main.py`) that utilizes the `speech_r
 ## Usage
 
 Run the script using the following command:
-
-bashCopy code
 
 `python src/main.py`
 
@@ -50,10 +40,6 @@ Make sure to properly configure the `device_info.json` file with the correct dev
 ### Disclaimer
 
 This script relies on external services, such as Google's Speech Recognition API and the Jarvos API. Ensure that you comply with the terms of service for these services.
-
-### Author
-
-[Your Name]
 
 ### License
 
