@@ -18,11 +18,9 @@ This repository contains a Python script (`main.py`) that utilizes the `speech_r
     
     `pip install -r requirements.txt`
     
-4. Create a `device_info.json` file with the following structure:
-    
-    `{     "device_id": "your_device_id" }`
-    
-    Replace `"your_device_id"` with the actual device ID obtained from the Jarvos platform.
+4. TODO: Generate a `device_info.json` using the generate_device_info.py script
+
+    `python src/generate_device_info.py`
     
 
 ## Usage
